@@ -3,3 +3,6 @@ $(document).ready(function (){
     $("#footer").load("footer.html");
     console.log("test")
 });
+$(window).scroll(function(){
+    $("#arrows").css("opacity", 1 - $(window).scrollTop() / 250);
+});

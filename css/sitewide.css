@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Press+Start+2P&family=Questrial&display=swap');
+
+
 body{
-    overflow: scroll;
-    margin: 11vh 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*margin: 50vh 22vh 0 0;*/
+    margin-top: 75vh;
+    /*margin-bottom: 11vh;*/
+    background-image: url("../resources/images/profile_pic_clown_nose.jpg");
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
 }
+
 
 /*   HEADER   */
 #header {
@@ -16,6 +31,12 @@ body{
     width: 100%;
     height: 100%;
     background: #3A78C5;
+    display: flex;
+}
+
+#header-main > p {
+    margin: auto;
+    font-size: 4vw;
 }
 
 /*   FOOTER    */
@@ -31,12 +52,148 @@ body{
     width: 100%;
     height: 100%;
     background: #3A78C5;
+    display: flex;
+}
+
+#footer-main > p {
+    margin: auto;
+    font-size: 4vw;
+}
+
+/*   ARROWS   */
+#arrows-container {
+    position: relative;
+    display: flex;
+    bottom: 10vh;
+}
+
+#arrows {
+    margin-right: auto;
+    margin-left: auto;
+    width: 25vh;
+    height: 25vh;
 }
 
 /*   MAIN   */
+#main-segments-container{
+    margin-bottom: 11vh;
+}
+
 .main-segment {
+    /*height: 30vh;*/
+    background: rgba(197, 135, 58, 1);
+    margin-bottom: 11vh;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 1000px){
+    #main-segments-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-segment{
+        max-width: 45%;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+.main-segment-title {
+    display: flex;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-segment-title > h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-segment-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.main-segment-image {
+    flex-direction: column;
+    /*max-width: 10vw;*/
+    height: available;
+    margin-left: auto;
+    width: 30%;
+    display: flex;
+}
+
+.main-segment-image-inverted {
+    flex-direction: column;
+    height: available;
+    width: 30%;
+    display: flex;
+}
+
+.main-segment-image > a {
+    display: flex;
+    margin: auto;
+
+}
+
+.main-segment-image-content {
+    margin: auto;
     width: 100%;
-    min-height: 30vh;
-    background: #C5873A;
-    margin-bottom: 1vh;
+}
+
+.main-segment-text {
+    /*width: 50px;*/
+    padding: 10px;
+    margin: auto;
+    max-width: 70%;
+}
+
+.main-segment-list {
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.main-segment-text > p {
+    text-align: center;
+}
+
+
+/*  CONTACT   */
+.main-segment-contact-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-segment-contact-link > a {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.main-segment-contact-link > a > img {
+    height: 15vh;
+    width: 15vh;
+}
+
+.main-segment-contact-link > label {
+    margin-right: auto;
+    margin-left: auto;
 }
