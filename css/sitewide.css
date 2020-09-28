@@ -89,20 +89,6 @@ body{
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 1000px){
-    #main-segments-container{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .main-segment{
-        max-width: 45%;
-        margin: 10px;
-        flex-wrap: wrap;
-    }
-}
-
 .main-segment-title {
     display: flex;
     padding: 10px;
@@ -192,4 +178,20 @@ body{
 .main-segment-contact-link > label {
     margin-right: auto;
     margin-left: auto;
+}
+
+/*   MEDIA QUERIES   */
+@media screen and (min-width: 1100px){
+    #main-segments-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main-segment{
+        max-width: 40vw;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
 }
