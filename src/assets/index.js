@@ -22,6 +22,8 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import mobile from './icons/mobile.png';
+import cloud from './icons/cloud.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -51,6 +53,8 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  mobile,
+  cloud,
   bwmap,
   nairobi,
   whiteabstract,

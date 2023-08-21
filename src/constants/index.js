@@ -22,11 +22,10 @@ import {
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
-  microverse,
+  microverse, mobile, cloud,
 } from '../assets';
 
 export const navLinks = [
@@ -48,18 +47,22 @@ const services = [
   {
     title: 'Frontend Developer',
     icon: frontend,
+    style: ''
   },
   {
     title: 'Backend Developer',
     icon: backend,
+    style: ''
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Mobile Developer',
+    icon: mobile,
+    style: 'invert'
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Cloud Architecture',
+    icon: cloud,
+    style: 'invert'
   },
 ];
 

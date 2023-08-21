@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo } from '../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -25,7 +25,8 @@ const Navbar = () => {
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
-            <p>
+            <p className={`text-[21px] font-big font-mova 
+                uppercase tracking-[3px] cursor-pointer text-eerieBlack`}>
                 Santiago Altairac
             </p>
           {/* if you have text you want besides your logo it comes here.
