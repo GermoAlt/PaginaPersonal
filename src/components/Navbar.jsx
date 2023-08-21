@@ -20,15 +20,14 @@ const Navbar = () => {
             setActive('');
             window.scrollTo(0, 0);
           }}>
-            <p>
-                Santiago Altairac
-            </p>
           <img
             src={logo} // your logo comes here
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
-
+            <p>
+                Santiago Altairac
+            </p>
           {/* if you have text you want besides your logo it comes here.
           Otherwise delete this if you don't need it. */}
           {/*<img*/}
@@ -68,7 +67,7 @@ const Navbar = () => {
                 />
               </div>
               <ul
-                className="list-none flex flex-col -gap-[1rem] 
+                className="list-none flex flex-col -gap-[1rem]
                 items-start justify-end mt-[10rem] -ml-[35px]">
                 {navLinks.map((nav) => (
                   <li
