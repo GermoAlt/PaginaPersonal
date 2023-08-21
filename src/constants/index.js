@@ -68,6 +68,14 @@ const services = [
 
 const technologies = [
   {
+    name: 'Java',
+    icon: html,
+  },
+  {
+    name: 'Spring Boot',
+    icon: html,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
@@ -88,27 +96,15 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'SQL',
+    icon: postgresql,
   },
   {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
+    name: 'mongoDB',
     icon: postgresql,
   },
   {
@@ -116,11 +112,7 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
+    name: 'openshift',
     icon: docker,
   },
 ];
@@ -159,7 +151,7 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
+    name: 'Sitio GESI',
     description: 'A comic characters list app that displays Marvel characters.',
     tags: [
       {
@@ -181,7 +173,7 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Lorena',
     description:
       'A leaderboard list app that displays scores submitted by different players.',
     tags: [
@@ -204,7 +196,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
+    name: 'Barcode Scanner',
     description: 'This is a single-page calculator app built with React',
     tags: [
       {
@@ -226,7 +218,7 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
+    name: 'Gourmetic',
     description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
     tags: [
       {
@@ -248,7 +240,7 @@ const projects = [
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'iRent',
     description:
       'This is a demo concert website for a music festival called Nyeusi.',
     tags: [
