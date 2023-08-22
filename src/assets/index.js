@@ -1,5 +1,5 @@
 import bwmap from './backgrounds/bw-map.jpeg';
-import nairobi from './backgrounds/nairobi.png';
+import nairobi from './backgrounds/bw.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
@@ -24,32 +24,38 @@ import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 import mobile from './icons/mobile.png';
 import cloud from './icons/cloud.png';
+import tech from './icons/tech.png';
 
 import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import java from './tech/java.png';
+import spring from './tech/spring.png';
+import openshift from './tech/openshift.png';
+import mongodb from './tech/mongodb.png';
+import mysql from './tech/mysql.png';
 
-import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
-import kelhel from './company/kelhel.png';
-import microverse from './company/microverse.png';
+import surfood from './company/surfood.png';
+import baufest from './company/baufest.png';
+import cda from './company/cda.jpg';
+import coloniaSuiza from './company/colonia-suiza.jpeg';
+import freelance from './company/freelance.png';
+import kinandcarta from './company/kinandcarta.png';
+import buffer from './company/buffer.png';
 
 import sportx from './projects/1.png';
 import gesi from './projects/2.png';
 import lorena from './projects/lorena.jpg';
 import barcode from './projects/barc.png';
 import sql from './projects/Screenshot 2023-08-21 231910.png';
+
+import linkedin from './contact/linkedin.png';
+import email from './contact/email.png';
 
 export {
     sportx,
@@ -80,22 +86,27 @@ export {
     resume,
     send,
     sendHover,
+    tech,
     css,
-    docker,
-    figma,
     git,
-    graphql,
     html,
     javascript,
     nodejs,
     postgresql,
-    rubyrails,
     reactjs,
-    redux,
-    tailwind,
     typescript,
-    coverhunt,
-    dcc,
-    kelhel,
-    microverse,
+    java,
+    spring,
+    openshift,
+    mongodb,
+    mysql,
+    surfood,
+    baufest,
+    cda,
+    coloniaSuiza,
+    freelance,
+    kinandcarta,
+    buffer,
+    linkedin,
+    email,
 };

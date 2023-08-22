@@ -8,6 +8,7 @@ import {
   Tech,
   Projects,
 } from './components';
+import NoFormContact from "./components/NoFormContact.jsx";
 
 const App = () => {
   return (
@@ -38,7 +39,7 @@ const App = () => {
           </div>
         </div>
         <div className="relative z-0">
-          <Contact />
+          <NoFormContact />
         </div>
       </div>
     </BrowserRouter>

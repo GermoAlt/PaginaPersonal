@@ -8,12 +8,21 @@ import {
   reactjs,
   nodejs,
   git,
-  docker,
   postgresql,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse, mobile, cloud, lorena, barcode, sql, sportx, gesi,
+  mobile,
+  cloud,
+  lorena,
+  barcode,
+  sql,
+  sportx,
+  gesi,
+  freelance,
+  cda,
+  coloniaSuiza,
+  baufest,
+  surfood,
+  kinandcarta,
+  buffer, openshift, java, spring, mysql, mongodb,
 } from '../assets';
 
 export const navLinks = [
@@ -57,11 +66,11 @@ const services = [
 const technologies = [
   {
     name: 'Java',
-    icon: html,
+    icon: java,
   },
   {
     name: 'Spring Boot',
-    icon: html,
+    icon: spring,
   },
   {
     name: 'HTML 5',
@@ -88,12 +97,16 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'SQL',
+    name: 'mysql',
+    icon: mysql,
+  },
+  {
+    name: 'postgresql',
     icon: postgresql,
   },
   {
     name: 'mongoDB',
-    icon: postgresql,
+    icon: mongodb,
   },
   {
     name: 'git',
@@ -101,15 +114,15 @@ const technologies = [
   },
   {
     name: 'openshift',
-    icon: docker,
+    icon: openshift,
   },
 ];
 
 const experiences = [
   {
-    title: 'Full Stack Developer',
+    title: 'Front End Developer',
     company_name: 'Freelance',
-    icon: coverhunt,
+    icon: freelance,
     date: 'Apr 2016 - Feb 2023',
     description: "Website development for individual clients.",
     tech: "Gradle · ReactJS · HTML · JavaScript · CSS · WordPress"
@@ -117,7 +130,7 @@ const experiences = [
   {
     title: 'Full Stack Developer',
     company_name: 'CDA Informatica',
-    icon: microverse,
+    icon: cda,
     date: 'Nov 2018 - Nov 2019',
     description:"I was assigned to the development of technological solutions for the client Banco Galicia, where I helped in the construction of internal workflow management tools for the processing of credit applications for large companies. After it went into production, I was in charge of its maintenance and incident management.",
     tech:"SOAP · Java · SQL · Hibernate · JavaServer Faces (JSF)"
@@ -125,7 +138,7 @@ const experiences = [
   {
     title: 'Full Stack Developer',
     company_name: 'Colonia Suiza',
-    icon: kelhel,
+    icon: coloniaSuiza,
     date: 'Nov 2019 - Apr 2020',
     description:"Development and maintenance of clinic management system with billing to AFIP (Argentina's national revenue service), continuous improvement work.",
     tech:"REST APIs · JPA · Java · SQL · JavaScript · Struts 2"
@@ -133,15 +146,15 @@ const experiences = [
   {
     title: 'Full Stack Developer',
     company_name: 'Baufest',
-    icon: dcc,
+    icon: baufest,
     date: 'Apr 2020 - Apr 2021',
     description:"I was part of the development team assigned to the Warner Media client, where we worked on building new infrastructure solutions and in the iterative process of continuous improvement of existing software.",
     tech:"Gradle · Angular · Spring Integration · Spring Boot · REST APIs · Java"
   },
   {
     title: 'Innovation Lead',
-    company_name: 'AssA Alimentos del Sur',
-    icon: dcc,
+    company_name: 'AssA (SURFOOD)',
+    icon: surfood,
     date: 'Feb 2022 - Oct 2022',
     description:"In charge of designing, building and implementing an internal inventory tracking system, with package traceability via Android mobile app.",
     tech:"Gradle · Android · DevOps · Automation · Java"
@@ -149,7 +162,7 @@ const experiences = [
   {
     title: 'Director',
     company_name: 'Buffer Project',
-    icon: dcc,
+    icon: buffer,
     date: 'Aug 2018 - Feb 2023',
     description:"Non-profit initiative that functions as an incubator for IT professionals by creating a space for collaboration and learning. As director, I was responsible for the daily project management activities, such as the assembly and maintenance of the technological infrastructure and team management. In addition, I acted as a teacher if necessary.",
     tech:"Gradle · Web Design · React.js · REST APIs · Java · SQL"
@@ -157,10 +170,10 @@ const experiences = [
   {
     title: 'Senior Technical Consultant',
     company_name: 'Kin + Carta',
-    icon: dcc,
+    icon: kinandcarta,
     date: 'Mar 2023 - Present',
-    description:"",
-    tech:""
+    description:"Part of a team responsible for the restructuring and development of a new critical tool for Discover.",
+    tech:"OCP · Java · SQL · JavaScript · React.js · REST APIs · Spring Boot · Gradle · SSO"
   },
 ];
 

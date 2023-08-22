@@ -52,7 +52,7 @@ export default {
         hero: 'linear-gradient(135deg, rgba(10,10,10,0.95) 60%, rgba(244,244,246,0.8) 60%)',
         'hero-mobile':
           'linear-gradient(137deg, rgba(10,10,10,1) 60%, rgba(244,244,246,0.8) 60%)',
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/nairobi.png')",
+        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/bw.png')",
       },
       fontFamily: {
         arenq: ['Arenq'],
