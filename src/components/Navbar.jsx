@@ -69,14 +69,14 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem]
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end mt-[10rem]">
                 {navLinks.map((nav) => (
                   <li
-                    id={nav.id}
+                    id={`nav-${nav.id}`}
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    } text-[40px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
