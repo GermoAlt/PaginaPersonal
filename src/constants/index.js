@@ -133,7 +133,7 @@ const experiences = [
     icon: cda,
     date: 'Nov 2018 - Nov 2019',
     description:"I was assigned to the development of technological solutions for the client Banco Galicia, where I helped in the construction of internal workflow management tools for the processing of credit applications for large companies. After it went into production, I was in charge of its maintenance and incident management.",
-    tech:"SOAP · Java · SQL · Hibernate · JavaServer Faces (JSF)"
+    tech:"SOAP APIs · Java · SQL · Hibernate · JavaServer Faces (JSF)"
   },
   {
     title: 'Full Stack Developer',
@@ -141,7 +141,7 @@ const experiences = [
     icon: coloniaSuiza,
     date: 'Nov 2019 - Apr 2020',
     description:"Development and maintenance of clinic management system with billing to AFIP (Argentina's national revenue service), continuous improvement work.",
-    tech:"REST APIs · JPA · Java · SQL · JavaScript · Struts 2"
+    tech:"SOAP APIs · JPA · Java · SQL · JavaScript · Struts 2"
   },
   {
     title: 'Full Stack Developer',
