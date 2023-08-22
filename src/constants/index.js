@@ -1,31 +1,19 @@
 import {
   frontend,
   backend,
-  ux,
-  prototyping,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   git,
-  figma,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
   coverhunt,
   dcc,
   kelhel,
-  microverse, mobile, cloud,
+  microverse, mobile, cloud, lorena, barcode, sql, sportx, gesi,
 } from '../assets';
 
 export const navLinks = [
@@ -181,7 +169,7 @@ const projects = [
     id: 'project-1',
     name: 'GESI.org.ar',
     description: 'Institutional website for GESI built with ReactJS.',
-    image: komikult,
+    image: gesi,
     repo: 'https://github.com/GermoAlt/sitio-gesi',
     demo: 'https://www.gesi.org.ar/',
   },
@@ -192,14 +180,14 @@ const projects = [
       'A discord bot built with Java/Kotlin that provides a \"hall of fame\" ' +
         'of messages that users store via emoji reactions. ' +
         'It also provides automatic/on demand unit conversions.',
-    image: leaderboard,
+    image: lorena,
     repo: 'https://github.com/Buffer-Project/Lorena',
   },
   {
     id: 'project-3',
     name: 'Barcode Scanner',
     description: 'Android native app that scans barcodes for warehouse inventory tracking.',
-    image: math,
+    image: barcode,
     repo: 'https://github.com/GermoAlt/BarcodeScanner',
   },
   {
@@ -207,16 +195,16 @@ const projects = [
     name: 'SQL Injection',
     description: `Educational site to demonstrate the mechanics of SQL injection built with ReactJS 
     and an in-memory SQLite database.`,
-    image: movie,
+    image: sql,
     repo: 'https://github.com/GermoAlt/sql-injection-demo',
     demo: 'https://sql-spa-injection-demo-3b3a23d88bb2.herokuapp.com/',
   },
   {
     id: 'project-5',
-    name: 'iRent',
+    name: 'sportx',
     description:
       'Demo site for an e-commerce platform built with ReactJS',
-    image: nyeusi,
+    image: sportx,
     repo: 'https://github.com/GermoAlt/iRent_front',
     demo: 'https://i-rent-front.vercel.app/',
   },

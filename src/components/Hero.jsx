@@ -85,7 +85,7 @@ const Hero = () => {
           <img
               className="absolute bottom-0 ml-[50vw]
               lg:ml-[60vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[60vw]
-              sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+              sm:h-[90vh] md:h-[70vh] xl:h-[80vh] grayscale"
               src={santi}
               alt="shaquille"
           />

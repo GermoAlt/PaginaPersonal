@@ -32,7 +32,7 @@ const ProjectCard = ({
       <img
         src={image}
         alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px]"
+        className={`absolute w-full h-full object-cover rounded-[24px] ${active !== id ?"grayscale":""}`}
       />
 
       {active !== id ? (
