@@ -46,7 +46,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-timberWolf`}>
-              I like to build cool stuff<br className="sm:block hidden" />
+              I like to build cool stuff <br className="sm:block hidden" />
               and help others do the same.
             </p>
           </div>
