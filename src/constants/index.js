@@ -131,7 +131,7 @@ const experiences = [
     title: 'Teaching Assistant',
     company_name: 'UADE, Security in Processes and Applications',
     icon: uade,
-    date: 'Mar 2023 - Present',
+    date: 'Aug 2023 - Present',
     description:"Responsible for the selection of case studies for analysis, putting together learning assessments, making practical demonstrations, assisting with evaluations, and contributing to lectures and discussions",
     tech:"Java · Spring Boot · SQL · JavaScript · React.js · REST APIs"
   },
