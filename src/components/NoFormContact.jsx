@@ -2,15 +2,15 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
-import {email, linkedin} from "../assets/index.js";
+import {email, github, linkedin} from "../assets/index.js";
 
 const Contact = () => {
 
-  const ContactButton = ({img, url}) => {
+  const ContactButton = ({img, url, invert}) => {
     return (
         <div className="flex justify-center items-center rounded-full ">
           <a href={url} target={'_blank'}>
-            <img src={img}  alt={"logo"} className={"h-[100px] invert"}/>
+            <img src={img}  alt={"logo"} className={`h-[100px] ${invert ? "invert" : ""}`}/>
           </a>
         </div>
     )
@@ -28,8 +28,9 @@ const Contact = () => {
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
 
         <div className={"flex flex-row justify-around"}>
-        <ContactButton img={linkedin} url={"https://www.linkedin.com/in/german-altairac/"} />
-        <ContactButton img={email} url={"mailto:santiago@altairac.dev"}/>
+        <ContactButton img={linkedin} url={"https://www.linkedin.com/in/german-altairac/"} invert/>
+        <ContactButton img={email} url={"mailto:santiago@altairac.dev"} invert/>
+        <ContactButton img={github} url={"https://github.com/GermoAlt"}/>
         </div>
       </motion.div>
     </div>

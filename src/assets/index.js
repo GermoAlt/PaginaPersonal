@@ -47,6 +47,7 @@ import coloniaSuiza from './company/colonia-suiza.jpeg';
 import freelance from './company/freelance.png';
 import kinandcarta from './company/kinandcarta.png';
 import buffer from './company/buffer.png';
+import uade from './company/uade.jpg';
 
 import sportx from './projects/1.png';
 import gesi from './projects/2.png';
@@ -107,6 +108,7 @@ export {
     freelance,
     kinandcarta,
     buffer,
+    uade,
     linkedin,
     email,
 };

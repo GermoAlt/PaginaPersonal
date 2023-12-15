@@ -22,7 +22,7 @@ import {
   baufest,
   surfood,
   kinandcarta,
-  buffer, openshift, java, spring, mysql, mongodb,
+  buffer, openshift, java, spring, mysql, mongodb, uade,
 } from '../assets';
 
 export const navLinks = [
@@ -120,20 +120,44 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front End Developer',
-    company_name: 'Freelance',
-    icon: freelance,
-    date: 'Apr 2016 - Feb 2023',
-    description: "Website development for individual clients.",
-    tech: "Gradle · ReactJS · HTML · JavaScript · CSS · WordPress"
+    title: 'Senior Technical Consultant',
+    company_name: 'Kin + Carta',
+    icon: kinandcarta,
+    date: 'Mar 2023 - Present',
+    description:"Part of a team responsible for the restructuring and development of a new critical tool for Discover.",
+    tech:"OCP · Java · SQL · JavaScript · React.js · REST APIs · Spring Boot · Gradle · SSO"
+  },
+  {
+    title: 'Teaching Assistant',
+    company_name: 'UADE, Security in Processes and Applications',
+    icon: uade,
+    date: 'Mar 2023 - Present',
+    description:"Responsible for the selection of case studies for analysis, putting together learning assessments, making practical demonstrations, assisting with evaluations, and contributing to lectures and discussions",
+    tech:"Java · Spring Boot · SQL · JavaScript · React.js · REST APIs"
+  },
+  {
+    title: 'Director',
+    company_name: 'Buffer Project',
+    icon: buffer,
+    date: 'Aug 2018 - Feb 2023',
+    description:"Non-profit initiative that functions as an incubator for IT professionals by creating a space for collaboration and learning. As director, I was responsible for the daily project management activities, such as the assembly and maintenance of the technological infrastructure and team management. In addition, I acted as a teacher if necessary.",
+    tech:"Gradle · Web Design · React.js · REST APIs · Java · SQL"
+  },
+  {
+    title: 'Innovation Lead',
+    company_name: 'AssA (SURFOOD)',
+    icon: surfood,
+    date: 'Feb 2022 - Oct 2022',
+    description:"In charge of designing, building and implementing an internal inventory tracking system, with package traceability via Android mobile app.",
+    tech:"Gradle · Android · DevOps · Automation · Java"
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'CDA Informatica',
-    icon: cda,
-    date: 'Nov 2018 - Nov 2019',
-    description:"I was assigned to the development of technological solutions for the client Banco Galicia, where I helped in the construction of internal workflow management tools for the processing of credit applications for large companies. After it went into production, I was in charge of its maintenance and incident management.",
-    tech:"SOAP APIs · Java · SQL · Hibernate · JavaServer Faces (JSF)"
+    company_name: 'Baufest',
+    icon: baufest,
+    date: 'Apr 2020 - Apr 2021',
+    description:"I was part of the development team assigned to the Warner Media client, where we worked on building new infrastructure solutions and in the iterative process of continuous improvement of existing software.",
+    tech:"Gradle · Angular · Spring Integration · Spring Boot · REST APIs · Java"
   },
   {
     title: 'Full Stack Developer',
@@ -145,35 +169,19 @@ const experiences = [
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Baufest',
-    icon: baufest,
-    date: 'Apr 2020 - Apr 2021',
-    description:"I was part of the development team assigned to the Warner Media client, where we worked on building new infrastructure solutions and in the iterative process of continuous improvement of existing software.",
-    tech:"Gradle · Angular · Spring Integration · Spring Boot · REST APIs · Java"
+    company_name: 'CDA Informatica',
+    icon: cda,
+    date: 'Nov 2018 - Nov 2019',
+    description:"I was assigned to the development of technological solutions for the client Banco Galicia, where I helped in the construction of internal workflow management tools for the processing of credit applications for large companies. After it went into production, I was in charge of its maintenance and incident management.",
+    tech:"SOAP APIs · Java · SQL · Hibernate · JavaServer Faces (JSF)"
   },
   {
-    title: 'Innovation Lead',
-    company_name: 'AssA (SURFOOD)',
-    icon: surfood,
-    date: 'Feb 2022 - Oct 2022',
-    description:"In charge of designing, building and implementing an internal inventory tracking system, with package traceability via Android mobile app.",
-    tech:"Gradle · Android · DevOps · Automation · Java"
-  },
-  {
-    title: 'Director',
-    company_name: 'Buffer Project',
-    icon: buffer,
-    date: 'Aug 2018 - Feb 2023',
-    description:"Non-profit initiative that functions as an incubator for IT professionals by creating a space for collaboration and learning. As director, I was responsible for the daily project management activities, such as the assembly and maintenance of the technological infrastructure and team management. In addition, I acted as a teacher if necessary.",
-    tech:"Gradle · Web Design · React.js · REST APIs · Java · SQL"
-  },
-  {
-    title: 'Senior Technical Consultant',
-    company_name: 'Kin + Carta',
-    icon: kinandcarta,
-    date: 'Mar 2023 - Present',
-    description:"Part of a team responsible for the restructuring and development of a new critical tool for Discover.",
-    tech:"OCP · Java · SQL · JavaScript · React.js · REST APIs · Spring Boot · Gradle · SSO"
+    title: 'Front End Developer',
+    company_name: 'Freelance',
+    icon: freelance,
+    date: 'Apr 2016 - Feb 2023',
+    description: "Website development for individual clients.",
+    tech: "Gradle · ReactJS · HTML · JavaScript · CSS · WordPress"
   },
 ];
 
